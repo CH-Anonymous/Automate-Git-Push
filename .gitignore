@@ -1,0 +1,41 @@
+# === Python ===
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# === Tkinter/.env Config ===
+*.env
+.env
+*.ini
+*.json
+
+# === Token storage ===
+*.token
+*.secret
+*.log
+*.db
+*.sqlite3
+
+# Ignore token file used by this app
+/autogitpush_token.json
+~/.autogitpush_token.json
+
+# === IDEs and OS ===
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# === Distribution ===
+dist/
+build/
+*.egg-info/
+*.spec
+
+# === ZIPs and backups ===
+*.zip
+*.bak
+*.tmp
+*.swp
